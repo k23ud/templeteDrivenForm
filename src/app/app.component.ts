@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Temp-Driven-Form';
+  log(courses: any) {
+    console.log(courses);
+  }
+
+  category = [
+    "Development",
+    "Art",
+    "Languages"
+  ];
+
 }
